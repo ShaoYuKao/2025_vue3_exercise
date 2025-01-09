@@ -127,6 +127,31 @@
 
 基於 **Vue 3** 和 **Vite** 建立的基本專案結構，以下逐一介紹每個目錄與檔案的用途：
 
+```plaintext
+|   .gitignore
+|   index.html
+|   package.json
+|   README.md
+|   vite.config.js
+|   
++---.vscode
+|       extensions.json
+|       
++---public
+|       vite.svg
+|       
+\---src
+    |   App.vue
+    |   main.js
+    |   style.css
+    |   
+    +---assets
+    |       vue.svg
+    |       
+    \---components
+            HelloWorld.vue
+```
+
 ### 根目錄
 
 - `.gitignore`
