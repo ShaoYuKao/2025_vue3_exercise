@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@three-ts/orbit-controls": "^1.4.7",
     "three": "^0.172.0",
     "vue": "^3.5.13"
   },
