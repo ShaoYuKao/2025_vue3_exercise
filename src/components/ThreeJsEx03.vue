@@ -97,7 +97,7 @@ export default {
   /**
    * 組件被銷毀時的事件
    */
-  beforeDestroy() {
+  beforeUnmount() {
     window.removeEventListener('resize', this.onWindowResize);
   }
 };

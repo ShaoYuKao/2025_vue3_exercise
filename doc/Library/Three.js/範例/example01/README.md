@@ -209,7 +209,7 @@ export default {
   /**
    * 組件被銷毀時的事件
    */
-  beforeDestroy() {
+  beforeUnmount() {
     window.removeEventListener('resize', this.onWindowResize);
     // ...existing code...
   }
@@ -354,7 +354,7 @@ onWindowResize() {
 在組件銷毀前，移除視窗大小變化的監聽器，避免記憶體洩漏。
 
 ```javascript
-beforeDestroy() {
+beforeUnmount() {
   window.removeEventListener('resize', this.onWindowResize);
 }
 ```

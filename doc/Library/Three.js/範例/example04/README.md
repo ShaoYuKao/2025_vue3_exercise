@@ -1,4 +1,4 @@
-# Three.js 打造互動式 3D 場景 - 材質與光源效果教學
+# 使用 Vue3 和 Three.js 打造互動式 3D 場景 - 材質與光源效果教學
 
 > 開發環境
 > Node.js 版本：18 以上
@@ -126,7 +126,7 @@ export default {
   /**
    * 組件被銷毀時的事件
    */
-  beforeDestroy() {
+  beforeUnmount() {
     window.removeEventListener('resize', this.onWindowResize);
     // ...existing code...
   }
